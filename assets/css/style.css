@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3178bf;
+}
+
+.body {
+  display: grid;
+  grid-template-rows: 4em auto 4em;
+  background-color: #eceef1;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.big-text {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  font-weight: 100;
+}
+
+.form-desc {
+  text-align: center;
+  font-size: 0.85em;
+  line-height: 1.2;
+}
+
+.footer {
+  background-color: #ee5252;
+}
+
+.container {
+  margin: 0 auto;
+  width: 380px;
+  padding: 1em;
+}
+
+.inp-field {
+  width: 100%;
+  padding: 0.3em;
+  border-radius: 3px;
+  border: 1px solid #eceef1;
+  margin: 0;
+  font: 100 1.2em "Helvetica", "Arial", "sans-serif";
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.password {
+  grid-column: 1/3;
+}
+
+.password-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  width: 100%;
+}
+
+.key-icon {
+  grid-column: 2/3;
+  position: absolute;
+  justify-self: flex-end;
+  align-self: center;
+  padding-right: 0.5em;
+  color: rgb(186, 189, 193);
+}
+
+.inp-label {
+  color: #404040;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.7em;
+  background-color: #3178bf;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+}
+
+.sign-up {
+  background-color: #fff;
+  padding: 2em;
+}
+
+.inp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.inp-info,
+.inp-error {
+  padding-top: 0.4em;
+  font-size: 0.7em;
+}
+
+fieldset {
+  border: none;
+  margin: 1em 0;
+  font-weight: 300;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid #dee0e3;
+}
+
+.card-footer {
+  text-align: center;
+  font-size: 0.65em;
+  padding: 2em 1em;
+  color: #909298;
+}
+
+.main {
+  border: 3px solid #e1e1e1;
+}
+
+.form-footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding-top: 1.5em;
+  color: #727272;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 1vw;
+    min-width: 380px;
+  }
+}

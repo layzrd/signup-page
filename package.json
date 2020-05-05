@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "html-validator-cli": "^7.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
