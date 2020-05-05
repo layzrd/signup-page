@@ -1,81 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form for Collecting Data</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form for Collecting Data</title>
+        <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
 
-<body>
-
-    <header class="header-container" name='header-container'>
-        <!-- header-1-->
-        <div class="header-top1" name='header-top1'>
-            <div class="top1-sub">Already have an Intuit account?</div>
-            <a href="#" class='top1-anchor' name='top1-anchor'>I for got my User ID or Password</a>
-            <div>
-                <button class="btn-top1" name='btn-top1'><i class="fas fa-lock"></i> <span>Sign In</span> </button>
+    <body class="body">
+        <header class="header">
+            <!-- header-1-->
+            <div class="header-top1">
+                <div class="top1-sub">Already have an Intuit account?</div>
+                <a href="#" class='top1-anchor'>I for got my User ID or Password</a>
+                <div>
+                    <button class="btn-top1">
+                        <i class="fas fa-lock"></i>
+                        <span>Sign In</span>
+                    </button>
+                </div>
             </div>
-        </div>
-        <!--header-2-->
-        <div class="header-top2" name='header-top2-img'>
-            <a href="#" class="header-top2-img"><img src="assets/intuit_logo.png" alt="intuit logo"
-                    class="intuit-logo"></a>
-        </div>
+        </header>
 
-        <!--header-3-->
+        <main class="container">
+            <header>
+                <a href="#" class="header-top2-img">
+                    <img src="assets/img/intuit_logo.png" alt="intuit logo" class="intuit-logo">
+                </a>
 
-        <div class="header-top3" name='header-top3'>
-            <nav class="top3-nav-bar" name='top3-nav-bar'>
-                <ul class="list-icons" name='list-icons'>
-                    <li><a href="#" class="icons-anchor" name='icons-anchor1'><i class="fas fa-burn"></i>mint</a></li>
-                    <li><a href="#" class="icons-anchor" name='icons-anchor2'>quickbooks</a></li>
-                    <li><a href="#" class='icons' name='icons-anchor3'><i class="fas fa-check-circle"></i>turbotax</a>
-                    </li>
+                
+            </header>
+
+            <section class="card">
+                <section class="sign-up">
+                    <header class="form-header">
+                        <h2 class="big-text">Create an Intuit account</h2>
+                    </header>
+                    <div class="form-desc">
+                        <p class="text-desc">
+                            One account for everything Intuit, including Mint.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+    
+                    <form class="form">
+                        <fieldset class="inp-container">
+                            <label for="email" class="inp-label">Email address</label>
+                            <input type="text" id="email" class="inp-field">
+                            <span class="inp-info">Invalid Email</span>
+                        </fieldset>
+    
+                        <fieldset>
+                            <label for="phone" class="inp-label">Phone (recommended)</label>
+                            <input type="text" id="phone" class="inp-field">
+                            <span class="inp-info">Standard call, messaging or data rates may apply.</span>
+                        </fieldset>
+    
+                        <fieldset class="inp-container">
+                            <label for="password" class="inp-label">Password</label>
+                            <span class="password-wrapper">
+                                <input type="password" placeholder="" id="password" class="inp-field password">
+                                <i class="fas fa-lock-open key-icon"></i>
+                            </span>
+                           
+                            
+                            <span class="inp-error">
+                                <i class="font">x</i>
+                                Use 8 or more characters
+                            </span>
+                        </fieldset>
+    
+                        <button type="submit" class="btn">Create Account</button>
+    
+                        <div class="form-footer">
+                            <p>By clicking Create account, you agree to our</p>
+                            <p>
+                                <a href="#">Terms</a> and have read and acknowledge our
+                                <a href="#">Privacy Statement</a>.</p>
+                        </div>
+                    </form>
+    
+                </section>
+                <footer class="card-footer">
+                    <p>Invisible reCAPTCHA by Google
+                        <a href="#">Privacy Policy</a>
+                        and
+                        <a href="#">Terms of Use</a>.
+                    </p>
+                </footer>
+            </section>
+    
+        </main>
+
+        <footer class="footer">
+
+            <div class='footer-anchor'>
+                <ul class='footer-list'>
+                    <li><a href="#" class="foot-link">Legal</a></li>
+                    <li><a href="#" class="foot-link">Privacy</a></li>
+                    <li><a href="#" class="foot-link">Security</a></li>
                 </ul>
-            </nav>
-        </div>
-    </header>
+            </div>
 
+            <div>
+                <span class="footer-msg">
+                    © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
+                    ProConnect and Mint are registered trademarks of Intuit Inc.
+                </span>
+                <br>
+                <span class="footer-msg1">
+                    Terms and conditions, features, support, pricing, and service options
+                    subject to change without notice.
+                </span>
+            </div>
 
-    <section>
-        <form action="#" method='Post'>
+        </footer>
 
-
-        </form>
-
-
-    </section>
-
-
-    <footer class="footer" name='footer-part'>
-
-        <div class='footer-anchor' name='footer-anchor'>
-            <ul class='footer-list'>
-                <li><a href="#" class="foot-link">Legal</a></li>
-                <li><a href="#" class="foot-link">Privacy</a></li>
-                <li><a href="#" class="foot-link">Security</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <span name='footer-msg' class="footer-msg">
-                © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
-                ProConnect and Mint are registered trademarks of Intuit Inc.
-            </span>
-            <br>
-            <span name='footer-msg1' class="footer-msg1">
-                Terms and conditions, features, support, pricing, and service options
-                subject to change without notice.
-            </span>
-        </div>
-
-    </footer>
-
-</body>
+    </body>
 
 </html>
