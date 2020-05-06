@@ -1,18 +1,18 @@
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 a {
-  text-decoration: none;
   color: #3178bf;
+  text-decoration: none;
 }
 
 .body {
+  background-color: #eceef1;
   display: grid;
   grid-template-rows: 4em auto 4em;
-  background-color: #eceef1;
   height: 100vh;
 }
 
@@ -21,17 +21,23 @@ a {
   justify-content: flex-end;
 }
 
+.brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .big-text {
-  text-align: center;
   font-size: 1.5em;
-  line-height: 1.8em;
   font-weight: 100;
+  line-height: 1.8em;
+  text-align: center;
 }
 
 .form-desc {
-  text-align: center;
   font-size: 0.85em;
   line-height: 1.2;
+  text-align: center;
 }
 
 .footer {
@@ -41,19 +47,21 @@ a {
 
 .container {
   margin: 0 auto;
-  width: 380px;
   padding: 1em;
+  width: 380px;
 }
 
 .inp-field {
-  width: 100%;
-  padding: 0.3em;
-  border-radius: 3px;
   border: 1px solid #eceef1;
+  border-radius: 3px;
+  font-weight: 100;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  font: 100 1.2em "Helvetica", "Arial", "sans-serif";
-  margin-top: 0.5em;
   margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  padding: 0.3em;
+  width: 100%;
 }
 
 .password {
@@ -67,12 +75,12 @@ a {
 }
 
 .key-icon {
-  grid-column: 2/3;
-  position: absolute;
-  justify-self: flex-end;
   align-self: center;
-  padding-right: 0.5em;
   color: rgb(186, 189, 193);
+  grid-column: 2/3;
+  justify-self: flex-end;
+  padding-right: 0.5em;
+  position: absolute;
 }
 
 .inp-label {
@@ -82,14 +90,14 @@ a {
 }
 
 .btn {
-  width: 100%;
-  padding: 0.7em;
   background-color: #3178bf;
+  border: none;
+  border-radius: 3px;
   color: #fff;
   font-size: 1em;
   font-weight: 400;
-  border-radius: 3px;
-  border: none;
+  padding: 0.7em;
+  width: 100%;
 }
 
 .sign-up {
@@ -98,28 +106,28 @@ a {
 }
 
 .inp-container {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   width: 100%;
 }
 
 .inp-info,
 .inp-error {
-  padding-top: 0.4em;
   font-size: 0.7em;
+  padding-top: 0.4em;
 }
 
 fieldset {
   border: none;
-  margin: 1em 0;
   font-weight: 300;
+  margin: 1em 0;
 }
 
 .form {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .card {
@@ -127,10 +135,10 @@ fieldset {
 }
 
 .card-footer {
-  text-align: center;
+  color: #909298;
   font-size: 0.65em;
   padding: 2em 1em;
-  color: #909298;
+  text-align: center;
 }
 
 .main {
@@ -138,18 +146,80 @@ fieldset {
 }
 
 .form-footer {
-  text-align: center;
-  font-size: 0.8em;
-  padding-top: 1.5em;
   color: #727272;
+  font-size: 0.8em;
   font-style: italic;
   line-height: 1.5em;
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.list-icons {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  column-gap: 0.5em;
+  justify-content: center;
+  align-content: center;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+.list-item {
+  align-self: center;
+}
+
+.list-turbotax {
+  align-self: auto !important;
+}
+
+.mint {
+  background-image: url(../img/mint.svg);
+  width: 20px;
+  height: 20px;
+}
+
+.mint-txt {
+  background-image: url(../img/mint_txt.svg);
+  width: 36px;
+  height: 14px;
+}
+
+.qb {
+  background-image: url(../img/qb.svg);
+  width: 14px;
+  height: 14px;
+}
+
+.qb-txt {
+  background-image: url(../img/qb_txt.svg);
+  width: 99px;
+  height: 22px;
+}
+
+.turbotax {
+  background-image: url(../img/turbotax.svg);
+  width: 14px;
+  height: 14px;
+}
+
+.turbotax-txt {
+  background-image: url(../img/turbotax_txt.svg);
+  width: 74px;
+  height: 16px;
+}
+
+.list-icons li {
+  display: block;
+}
+
+.list-icons a {
+  display: block;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
-    width: 1vw;
     min-width: 380px;
+    width: 1vw;
   }
 }
 
