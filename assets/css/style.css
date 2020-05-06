@@ -1,6 +1,7 @@
 body,
 p,
-ul {
+ul,
+h2 {
   margin: 0;
 }
 
@@ -18,7 +19,7 @@ a {
 }
 
 .big-text {
-  font-size: 1.5em;
+  color: #434343;
   font-weight: 100;
   line-height: 1.8em;
   text-align: center;
@@ -67,6 +68,11 @@ a {
   width: 380px;
 }
 
+.form-header {
+  padding-bottom: 0.7em;
+  padding-top: 0.5em;
+}
+
 .inp-field {
   border: 1px solid #eceef1;
   border-radius: 3px;
@@ -113,7 +119,7 @@ a {
 
 .sign-up {
   background-color: #fff;
-  padding: 2em;
+  padding: 1em 2em;
 }
 
 .inp-container {
