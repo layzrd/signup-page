@@ -41,7 +41,8 @@ a {
 }
 
 .footer {
-  background-color: #ee5252;
+  width: 800px;
+  margin-left: 250px;
 }
 
 .container {
@@ -232,3 +233,11 @@ input.password:not(:focus) ~ .inp-error {
     width: 1vw;
   }
 }
+
+.footer-list{display: grid;
+  grid-template-columns: repeat(3,auto);
+  list-style-type: none;
+  width: 250px;
+  margin-left: 280px
+}
+
