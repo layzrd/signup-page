@@ -1,7 +1,13 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+} */
+
+body,
+p,
+ul {
+  margin: 0;
 }
 
 a {
@@ -12,7 +18,8 @@ a {
 .body {
   background-color: #eceef1;
   display: grid;
-  grid-template-rows: 4em auto 4em;
+  grid-template-rows: auto auto auto;
+  row-gap: 1em;
   height: 100vh;
 }
 
@@ -21,10 +28,35 @@ a {
   justify-content: flex-end;
 }
 
+.pr-half {
+  padding-right: 0.5em;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.top-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  padding-right: 2em;
+}
+
+.signin-info {
+  font-size: 14px;
+  font-weight: 100;
+}
+
 .brands {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.brands .navbar {
+  align-self: center;
 }
 
 .big-text {
@@ -38,11 +70,6 @@ a {
   font-size: 0.85em;
   line-height: 1.2;
   text-align: center;
-}
-
-.footer {
-  width: 800px;
-  margin-left: 250px;
 }
 
 .container {
@@ -76,7 +103,7 @@ a {
 .key-icon {
   color: rgb(186, 189, 193);
   position: absolute;
-  top: 33%;
+  top: 1.2em;
   right: 0.5em;
 }
 
@@ -161,6 +188,17 @@ fieldset {
   padding-bottom: 0.8em;
 }
 
+.btn-signin {
+  padding: 0.5em 1.3em;
+  border: 1px solid #000;
+  background: #3178bf;
+  color: #fff;
+  margin-left: 1em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
 .list-item {
   align-self: center;
 }
@@ -227,6 +265,28 @@ input.password:not(:focus) ~ .inp-error {
   display: none;
 }
 
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #585859;
+  padding-bottom: 1.5em;
+  position: sticky;
+}
+
+.footer ul {
+  padding-bottom: 0.3em;
+}
+
+.licence {
+  padding-bottom: 0.15em;
+}
+
+.footer li {
+  display: inline;
+  padding-right: 0.25em;
+  padding-left: 0.25em;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
     min-width: 380px;
@@ -234,10 +294,16 @@ input.password:not(:focus) ~ .inp-error {
   }
 }
 
-.footer-list{display: grid;
-  grid-template-columns: repeat(3,auto);
-  list-style-type: none;
-  width: 250px;
-  margin-left: 280px
-}
+@media (max-width: 720px) {
+  .top-header {
+    display: none;
+  }
 
+  .signin-info {
+    display: none;
+  }
+
+  .btn-signin {
+    display: none;
+  }
+}

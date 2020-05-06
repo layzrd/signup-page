@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -12,18 +12,19 @@
     </head>
 
     <body class="body">
-        <header class="header">
+        <header class="top-header">
             <!-- header-1-->
-            <div class="header-top1">
-                <div class="top1-sub">Already have an Intuit account?</div>
-                <a href="#" class='top1-anchor'>I for got my User ID or Password</a>
-                <div>
-                    <button class="btn-top1">
-                        <i class="fas fa-lock"></i>
-                        <span>Sign In</span>
-                    </button>
-                </div>
+
+            <div class="signin-info">
+                <p>Already have an Intuit account?</p>
+                <a href="#" class='top1-anchor'>I forgot my User ID or Password</a>
             </div>
+
+            <button class="btn-signin">
+                <i class="fas fa-lock pr-half"></i>
+                <span>Sign In</span>
+            </button>
+
         </header>
 
         <main class="container">
@@ -31,10 +32,8 @@
                 <a href="#" class="header-top2-img">
                     <img src="assets/img/intuit_logo.png" alt="intuit logo" class="intuit-logo">
                 </a>
-
-                <div class="header-top3">
-                    <nav class="top3-nav-bar">
-                        <ul class="list-icons">
+                    <nav class="navbar">
+                        <ul class="list-icons pl-0">
                             <li class="list-item">
                                 <a class="list-nav mint" href="#"></a>
                             </li>
@@ -55,7 +54,7 @@
                             </li>
                         </ul>
                     </nav>
-                </div>
+
             </header>
 
             <section class="card">
@@ -69,24 +68,25 @@
                         </p>
                         <a href="#">Learn more</a>
                     </div>
-    
+
                     <form class="form">
                         <fieldset class="inp-container">
                             <label for="email" class="inp-label">Email address</label>
                             <input type="text" id="email" class="inp-field">
                             <span class="inp-info">Invalid Email</span>
                         </fieldset>
-    
-                        <fieldset>
+
+                        <fieldset class="inp-container">
                             <label for="phone" class="inp-label">Phone (recommended)</label>
                             <input type="text" id="phone" class="inp-field">
                             <span class="inp-info">Standard call, messaging or data rates may apply.</span>
                         </fieldset>
-    
+
                         <fieldset class="inp-container">
                             <label for="password" class="inp-label">Password</label>
                             <div class="password-wrapper">
-                                <input type="password" placeholder="" required minlength="2" id="password" class="inp-field password">
+                                <input type="password" placeholder="" required minlength="2" id="password"
+                                    class="inp-field password">
                                 <i class="fas fa-lock-open key-icon"></i>
                                 <span class="inp-error">
                                     <i class="fas fa-times font"></i>
@@ -105,11 +105,11 @@
                                     Use 8 or more characters
                                 </span>
                             </div>
-                           
+
                         </fieldset>
-    
+
                         <button type="submit" class="btn">Create Account</button>
-    
+
                         <div class="form-footer">
                             <p>By clicking Create account, you agree to our</p>
                             <p>
@@ -117,7 +117,7 @@
                                 <a href="#">Privacy Statement</a>.</p>
                         </div>
                     </form>
-    
+
                 </section>
                 <footer class="card-footer">
                     <p>Invisible reCAPTCHA by Google
@@ -127,29 +127,26 @@
                     </p>
                 </footer>
             </section>
-    
+
         </main>
 
         <footer class="footer">
 
-            <div class='footer-anchor'>
-                <ul class='footer-list'>
-                    <li><a href="#" class="foot-link">Legal</a></li>
-                    <li><a href="#" class="foot-link">Privacy</a></li>
-                    <li><a href="#" class="foot-link">Security</a></li>
-                </ul>
-            </div>
+            <ul class='list center'>
+                <li><a href="#" class="foot-link">Legal</a></li>
+                <li><a href="#" class="foot-link">Privacy</a></li>
+                <li><a href="#" class="foot-link">Security</a></li>
+            </ul>
 
             <div>
-                <span class="footer-msg">
+                <p class="licence">
                     © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
                     ProConnect and list-nav mint are registered trademarks of Intuit Inc.
-                </span>
-                <br>
-                <span class="footer-msg1">
+                </p>
+                <p class="tc">
                     Terms and conditions, features, support, pricing, and service options
                     subject to change without notice.
-                </span>
+                </p>
             </div>
 
         </footer>
