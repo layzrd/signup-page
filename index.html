@@ -65,7 +65,7 @@
                     </header>
                     <div class="form-desc">
                         <p class="text-desc">
-                            One account for everything Intuit, including list-nav mint.
+                            One account for everything Intuit, including mint.
                         </p>
                         <a href="#">Learn more</a>
                     </div>
@@ -85,16 +85,29 @@
     
                         <fieldset class="inp-container">
                             <label for="password" class="inp-label">Password</label>
-                            <span class="password-wrapper">
-                                <input type="password" placeholder="" id="password" class="inp-field password">
+                            <div class="password-wrapper">
+                                <input type="password" placeholder="" required minlength="2" id="password" class="inp-field password">
                                 <i class="fas fa-lock-open key-icon"></i>
-                            </span>
+                                <span class="inp-error">
+                                    <i class="fas fa-times font"></i>
+                                    Use 8 or more characters
+                                </span>
+                                <span class="inp-error">
+                                    <i class="fas fa-times font"></i>
+                                    Use 8 or more characters
+                                </span>
+                                <span class="inp-error">
+                                    <i class="fas fa-times font"></i>
+                                    Use 8 or more characters
+                                </span>
+                                <span class="inp-error">
+                                    <i class="fas fa-times font"></i>
+                                    Use 8 or more characters
+                                </span>
+                            </div>
                            
                             
-                            <span class="inp-error">
-                                <i class="font">x</i>
-                                Use 8 or more characters
-                            </span>
+                            
                         </fieldset>
     
                         <button type="submit" class="btn">Create Account</button>
