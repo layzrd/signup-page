@@ -34,24 +34,24 @@ Setup your machine setup
 
 ### Setup
 
-- Follow the llink below to install git
+- Follow the link below to install git.
   > [download git](https://git-scm.com/downloads)
-- Follow the link below to setup HTML validetor
+- Follow the link below to setup HTML validator.
   > [Setup HTML validator](https://github.com/microverseinc/linters-config/tree/master/html_validator)
-- Follow the link below to setup linter
+- Follow the link below to setup linter.
   > [Setup CSS Linter to check code errors](https://github.com/microverseinc/linters-config/tree/master/css#troubleshooting)
-- Clone or download the repository
+- Clone the repository
   > to clone the repository simply run the code below on your computer termial
   `git clone https://github.com/abredi/youtube-clone.git youtube`
 
 ### Install
 
 *Optional*
-Go the project directory on your terminal and run `npm install` it will install the HTML validator and CSS linters
+Go to the project directory on your terminal and run `npm install` to install the HTML validator and CSS linters
 
 ### Usage
 
-Goto the project directory and run open the `index.html` file on your browser
+Go to the project directory and run open the `index.html` file on your browser.
 
 ## Authors
 
