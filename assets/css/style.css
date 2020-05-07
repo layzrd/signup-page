@@ -133,12 +133,13 @@ a {
 .inp-error {
   font-size: 0.7em;
   padding-top: 0.4em;
+  display: none;
 }
 
 fieldset {
   border: none;
   font-weight: 300;
-  margin: 1em 0;
+  margin: 0.7em 0;
 }
 
 .form {
@@ -259,8 +260,8 @@ input.password:not(:focus) ~ .inp-error {
 }
 
 .footer {
-  color: #585859;
-  font-size: 14px;
+  color: #505050;
+  font-size: 12px;
   padding-bottom: 1.5em;
   position: sticky;
   text-align: center;
