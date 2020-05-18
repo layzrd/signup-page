@@ -42,7 +42,7 @@ Setup your machine setup
   > [Setup CSS Linter to check code errors](https://github.com/microverseinc/linters-config/tree/master/css#troubleshooting)
 - Clone the repository
   > to clone the repository simply run the code below on your computer termial
-  `git clone https://github.com/abredi/youtube-clone.git youtube`
+  `git clone https://github.com/abredi/signup-page.git signup-page`
 
 ### Install
 
