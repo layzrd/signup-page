@@ -1,4 +1,4 @@
-# YouTube Clone
+# intuit.com Sign Up Page
 
 > intuit.com sign up page clone based on [Intuit Sign Up page](https://accounts.intuit.com/index.html)
 
