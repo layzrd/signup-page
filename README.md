@@ -1,5 +1,4 @@
 # intuit.com Sign Up Page
-
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 > intuit.com sign up page clone based on [Intuit Sign Up page](https://accounts.intuit.com/index.html)
