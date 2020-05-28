@@ -1,4 +1,5 @@
 # intuit.com Sign Up Page
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 > intuit.com sign up page clone based on [Intuit Sign Up page](https://accounts.intuit.com/index.html)
 
@@ -20,34 +21,34 @@ This web page is developed by HTML5 and CSS only, without using any framework or
 ## Getting Started
 
 **Install on Your Own Machine.**
-**You can skip the linter and HTML validetors setup if you don't want to validate the code**
+**You can skip the linter and HTML validators setup if you don't want to validate the code.**
 
-Setup your machine setup
+Set up your machine.
 
 ### Prerequisites
 
-  > All the prerequisites are optional
+  > All the prerequisites are optional.
 
 - Git
 - HTML validator
-- CSS Linters
+- CSS Linter
 
 ### Setup
 
-- Follow the link below to install git.
+- Follow the link below to install git
   > [download git](https://git-scm.com/downloads)
-- Follow the link below to setup HTML validator.
-  > [Setup HTML validator](https://github.com/microverseinc/linters-config/tree/master/html_validator)
-- Follow the link below to setup linter.
-  > [Setup CSS Linter to check code errors](https://github.com/microverseinc/linters-config/tree/master/css#troubleshooting)
+- Follow the link below to set up an HTML validator
+  > [Set up HTML validator](https://github.com/microverseinc/linters-config/tree/master/html_validator)
+- Follow the link below to set up a linter
+  > [Set up CSS Linter to check code errors](https://github.com/microverseinc/linters-config/tree/master/css#troubleshooting)
 - Clone the repository
-  > to clone the repository simply run the code below on your computer termial
+  > Clone the repository by run the code below on your computer terminal.
   `git clone https://github.com/abredi/signup-page.git signup-page`
 
 ### Install
 
 *Optional*
-Go to the project directory on your terminal and run `npm install` to install the HTML validator and CSS linters
+Go to the project directory on your terminal and run `npm install` to install the HTML validator and CSS linter.
 
 ### Usage
 
