@@ -1,5 +1,6 @@
 # intuit.com Sign Up Page
-[![Is @abredi available for hire?](http://hireable.me/abredi)](http://hireable.me/p/abredi)
+
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 > intuit.com sign up page clone based on [Intuit Sign Up page](https://accounts.intuit.com/index.html)
 
