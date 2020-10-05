@@ -66,7 +66,7 @@ Go to the project directory and run open the `index.html` file on your browser.
 
 - Github: [@AdesojiCodeMaster](https://github.com/AdesojiCodeMaster)
 - Twitter: [@CodeMas22665735](https://twitter.com/CodeMas22665735)
-- Linkedin: [linkedin](https://www.linkedin.com/in/adesoji-adewumi-7752aba5)
+- Linkedin: [linkedin](https://www.linkedin.com/in/adesoji-adewumi)
 
 ## 🤝 Contributing
 
